@@ -3,7 +3,7 @@ jdk:
   - openjdk8
 
 script:
-#  - ./gradlew build test jacocoTestReport
+  - ./gradlew build test jacocoTestReport
   - gradle test
   - ls build
   - gradle  run
