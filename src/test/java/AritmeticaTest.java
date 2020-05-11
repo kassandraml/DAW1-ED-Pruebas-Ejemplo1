@@ -20,15 +20,15 @@ public class AritmeticaTest {
     }
 
     @Test
-  /*  public void testResta() {
+    public void testResta() {
         // 4 casos de prueba
         assertEquals("Resta ( 2, 3) debe ser -1", -1, Aritmetica.resta( 2, 3));
         assertEquals("Resta (-2, 2) debe ser -4", -4, Aritmetica.resta(-2, 2));
         assertEquals("Resta ( 0,-3) debe ser  3",  3, Aritmetica.resta( 0,-3));
         assertEquals("Resta (-3,-3) debe ser  0",  0, Aritmetica.resta(-3,-3));
     }
-*/
- /*   @Test
+
+    @Test
     public void testMultiplicacion() {
         // 4 casos de prueba
         assertEquals("Multiplicacion ( 2, 3) debe ser  6",  6, Aritmetica.multiplicacion( 2, 3));
@@ -45,6 +45,6 @@ public class AritmeticaTest {
         assertEquals("División ( 0,-3) debe ser    0",     0, Aritmetica.division( 0,-3), 0.001);
         assertEquals("División (-3,-3) debe ser    1",     1, Aritmetica.division(-3,-3), 0.001);
     }
-*/
+
 }
 
